@@ -15,7 +15,9 @@
 }
 
 @media (max-width: 600px) {
-    .pain {
-    width:100% !important;
+    
+    .pain{width:100%;}
+    .pain2 {
+   display:none !important;
     }
   }

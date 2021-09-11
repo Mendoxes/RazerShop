@@ -46,7 +46,7 @@ return (<div key={index}>
 </Fade>
 <Fade bottom>
 <WhiteTextTypography className="pain"  variant="h5" >{item}</WhiteTextTypography>
-<GreenTextTypography className="pain"> {itemsS[index]}</GreenTextTypography>
+<GreenTextTypography className="pain pain2"> {itemsS[index]}</GreenTextTypography>
 </Fade>
 
 </Grid>
