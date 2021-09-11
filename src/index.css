@@ -1,13 +1,107 @@
+
+
+@media screen and (max-width: 800px){
+
+  .h2 {
+    margin: 13rem 3rem 1px 6rem;
+    color:red;
+  }}
+
+  @media screen and (max-width: 1200px){
+
+    .overlay h2 {
+     font-size:3rem !important;
+    }}
+
+    @media screen and (max-width: 760px){
+
+      .overlay h2 {
+       font-size:2rem !important;
+      }}
+
+
+      @media screen and (max-width: 460px){
+
+        .overlay h2 {
+         font-size:2rem !important;
+         margin: 37rem 3rem 1px 6rem !important;
+        }}
+
+
+
+    html{
+      scroll-behavior: smooth;
+    } 
+
 body {
+  color:white;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.videoTag{
+
+  width:100%;
+}
+.title{color:white}
+
+
+video {
+  position: relative;
+  top: 1rem;
+  z-index: -1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.overlay {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.overlay h2 {
+    background: #000 none repeat scroll 0 0;
+    color: #14d23d;
+    font-weight: 600;
+    margin: 27rem 3rem 1px 6rem;
+    mix-blend-mode: overlay;
+    padding: 5px 15px;
+    text-align: center;
+opacity:0;
+animation: opa 6s;
+animation-fill-mode: forwards;
+font-size: 5rem;
+}
+
+
+@keyframes opa {
+
+  0%{ opacity:0}
+  100%{opacity:1}
+};
+
+
+

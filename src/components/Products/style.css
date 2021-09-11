@@ -1,0 +1,35 @@
+.ok2:hover{
+    background-color: #03da0a;
+  }
+
+  #products{
+
+    padding-top: 20px;
+  }
+
+  .smallBar{
+
+    width: 100%;
+    height: 9vh;
+    background-color: #0a0a0a;
+    position: relative;
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .white{
+    background-color: #24df2c !important;
+    border-radius: 11px !important;
+    /* padding: 6px 2px 10px 6px !important; */
+    height: 3rem;
+    transition: all 1s !important;
+    
+  }
+
+  .white:hover{
+    background-color: rgb(123, 255, 0) !important;
+   
+  }

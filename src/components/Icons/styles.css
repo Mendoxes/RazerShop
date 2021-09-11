@@ -1,0 +1,21 @@
+.look{
+    background-color: black;
+    text-align: -webkit-center;
+}
+
+.lookInside{
+
+
+    margin-top:4rem !important;
+    margin-bottom:4rem !important;
+}
+
+.pain{
+    padding:20px;
+}
+
+@media (max-width: 600px) {
+    .pain {
+    width:100% !important;
+    }
+  }
