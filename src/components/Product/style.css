@@ -11,6 +11,10 @@
   margin-top: 2rem;
 }
 
+
+.black1{
+  background-color: #121212 !important;
+}
 .MuiCard-root.product-card:hover {
   transform: scale(1.05);
 }

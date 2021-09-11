@@ -7,7 +7,7 @@ import "./style.css"
 
 const Product =({product, addProduct}) =>(
 
-<Card className="product-card">
+<Card className="product-card black1">
 <CardActionArea>
 <CardMedia component="img"
 alt="laptop"

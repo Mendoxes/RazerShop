@@ -32,7 +32,7 @@ const Products=({products,addProduct})=> {
                 <Grid container spacing={4}>
                     
             {Laptops.map(product => {
-               return  <Grid className="ok2" key={product.id} item xs={12} sm={6} md={4}> <Fade bottom><Product  product={product} addProduct={addProduct}></Product></Fade></Grid>
+               return  <Grid className="ok2" key={product.id} item xs={12} sm={6} md={4}> <Fade bottom><Product className="black1"  product={product} addProduct={addProduct}></Product></Fade></Grid>
                
             })}
 </Grid>
